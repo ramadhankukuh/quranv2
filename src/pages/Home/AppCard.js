@@ -4,7 +4,9 @@ import IconMosque from "../../components/icons/IconMosque";
 import IconNewspaper from "../../components/icons/IconNewspaper";
 import IconQuranCalligraphy from "../../components/icons/IconQuranCalligraphy";
 
+
 const apps = [
+
   {
     name: "Al-Quran",
     slug: "quran",
@@ -58,12 +60,12 @@ const AppCard = () => {
         <CustomLink
           key={app.slug}
           href={app.slug}
-          className={`group relative w-full overflow-hidden text-center flex p-8 justify-center items-center rounded-2xl bg-[#f7f7f8] ${app.hover.background}`}
+          className={`group relative w-full overflow-hidden text-center flex p-8 justify-center items-center rounded-2xl bg-[#211D35] border ${app.hover.background}`}
         >
           <div className="flex flex-col gap-4 items-center justify-center group-hover:opacity-0 transition-opacity">
             <span className="w-24 max-h-24">{app.icon}</span>
             <h2 className="font-bold text-2xl tracking-tighter">{app.name}</h2>
-            <p className="text-[#464853]">{app.description}</p>
+            <p className="text-[#706F76]">{app.description}</p>
           </div>
           <span
             className={`absolute -translate-x-1/2 translate-y-1/2 bottom-0 ${app.hover.color} left-1/2 transition-all opacity-0 font-bold text-3xl group-hover:opacity-100 group-hover:bottom-1/2`}
