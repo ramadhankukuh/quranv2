@@ -6,10 +6,10 @@ import PrayerTime from "./PrayerTime";
 const Home = () => {
   return (
     <div className="w-full flex flex-col gap-6">
-      <FeaturedNews />
-      <AppCard />
       <PrayerTime />
+      <AppCard />
       <BookmarkCard />
+      <FeaturedNews />
     </div>
   );
 };
