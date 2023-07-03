@@ -103,7 +103,7 @@ const Header = () => {
   }, [isOpenMenu, windowSize.width]);
 
   return (
-    <header className={`border-slate-200 z-10 bg-white w-full bg-[#211D35]`}>
+    <header className={`border-slate-200 z-10 bg-[#211D35] w-full`}>
       <nav className="w-full max-w-7xl mx-auto py-4 flex items-center flex-wrap gap-4 rounded-md justify-between h-full px-4 font-medium">
         <Logo />
         <button onClick={toggleOpenMenu} className="md:hidden">
