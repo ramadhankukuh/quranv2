@@ -12,13 +12,16 @@
   }
 
   body {
-    @apply antialiased text-black;
+    @apply antialiased text-white;
     text-rendering: optimizeSpeed;
+    background-color: #191627;
   }
   html {
     scroll-behavior: smooth;
   }
 }
+
+
 
 @layer components {
   /* toogle */
