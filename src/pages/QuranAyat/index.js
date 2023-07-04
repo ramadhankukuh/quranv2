@@ -67,7 +67,7 @@ const Tafsir = ({ mufassirs, tafsir }) => {
       </div>
       <div className="w-full">
         <p
-          className="text-slate-800"
+          className="text-white"
           dangerouslySetInnerHTML={{ __html: tafsir }}
         />
       </div>

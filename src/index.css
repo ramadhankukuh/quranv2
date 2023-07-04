@@ -21,7 +21,14 @@
   }
 }
 
+/* Warns */
+.warna-biru-bg {
+  background-color: #3730A3;
+}
 
+.warna-abu-text {
+  color: rgb(158, 157, 157);
+}
 
 @layer components {
   /* toogle */
@@ -35,7 +42,7 @@
 
   /* highlight playing ayah */
   .highlight-ayah {
-    @apply bg-gray-100 transition;
+    @apply bg-indigo-900 transition;
   }
 
   /* scrollbar */

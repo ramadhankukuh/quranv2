@@ -14,7 +14,7 @@ const apps = [
     description: "Al-quran dengan terjemahan, tafsir, murottal, dll.",
     hover: {
       text: "Baca Al-Quran",
-      background: "hover:bg-[#D8F6FF]",
+      background: "hover:bg-[#6E57E0]",
       color: "text-[#00AEE5]",
     },
   },
@@ -25,8 +25,52 @@ const apps = [
     description: "Hadits dari 8 mufassir dengan terjemahan.",
     hover: {
       text: "Baca Hadits",
-      background: "hover:bg-[#D5F8EF]",
-      color: "text-[#14B789]",
+      background: "hover:bg-[#6E57E0]",
+      color: "text-[#00AEE5]",
+    },
+  },
+  {
+    name: "Asmaul Husna",
+    slug: "doa-harian",
+    icon: <IconHaditsCalligraphy />,
+    description: "bacaan asmaul husna.",
+    hover: {
+      text: "Baca Asmaul Husna",
+      background: "hover:bg-[#6E57E0]",
+      color: "text-[#00AEE5]",
+    },
+  },
+  {
+    name: "Doa Harian",
+    slug: "doa-harian",
+    icon: <IconHaditsCalligraphy />,
+    description: "beberapa bacaan doa harian.",
+    hover: {
+      text: "Baca Doa Harian",
+      background: "hover:bg-[#6E57E0]",
+      color: "text-[#00AEE5]",
+    },
+  },
+  {
+    name: "Wirid",
+    slug: "wirid",
+    icon: <IconHaditsCalligraphy />,
+    description: "beberapa bacaan wirid.",
+    hover: {
+      text: "Baca Wirid",
+      background: "hover:bg-[#6E57E0]",
+      color: "text-[#00AEE5]",
+    },
+  },
+  {
+    name: "Tahlil",
+    slug: "doa-harian",
+    icon: <IconHaditsCalligraphy />,
+    description: "beberapa bacaan tahlil.",
+    hover: {
+      text: "Baca Tahlil",
+      background: "hover:bg-[#6E57E0]",
+      color: "text-[#00AEE5]",
     },
   },
   {
@@ -36,8 +80,8 @@ const apps = [
     description: "Waktu sholat seluruh wilayah Indonesia.",
     hover: {
       text: "Cek Waktu Sholat",
-      background: "hover:bg-[#FFE5F4]",
-      color: "text-[#E50087]",
+      background: "hover:bg-[#6E57E0]",
+      color: "text-[#00AEE5]",
     },
   },
   {
@@ -47,8 +91,8 @@ const apps = [
     description: "Berita islami terkini nasional & internasional.",
     hover: {
       text: "Baca Berita Islami",
-      background: "hover:bg-[#E8E2F7]",
-      color: "text-[#802FDE]",
+      background: "hover:bg-[#6E57E0]",
+      color: "text-[#00AEE5]",
     },
   },
 ];

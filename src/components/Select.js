@@ -57,7 +57,7 @@ const Select = ({ value, onChange, label, children }) => {
           )}
         </div>
         <div
-          className={`scrollbar overflow-auto max-h-40 absolute z-30 -mt-[1px] w-full flex-col p-2 gap-1 bg-white border border-slate-300 rounded-b-lg ${
+          className={`scrollbar overflow-auto max-h-40 absolute z-30 -mt-[1px] w-full flex-col p-2 gap-1 bg-[#191627] border border-slate-300 rounded-b-lg ${
             isOpenSelect ? "flex" : "hidden"
           }`}
         >
@@ -84,8 +84,8 @@ const Options = ({
       }}
       className={`px-3 py-1 inline-flex justify-between items-center rounded-md ${
         currentValue === value
-          ? "bg-blue-50 text-primary font-medium"
-          : "hover:bg-slate-100"
+          ? "bg-transparent text-primary font-medium" 
+          : "hover:bg-[#191627]"
       }`}
     >
       {children}{" "}

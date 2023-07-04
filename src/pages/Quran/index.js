@@ -10,9 +10,9 @@ const AyahCard = ({ number, name, translation, revelation, numberOfAyahs }) => {
   return (
     <Link
       to={`/quran/${number}`}
-      className="border rounded-md p-4 group hover:border-primary hover:bg-slate-50 transition-colors flex gap-4 items-center w-full"
+      className="border rounded-md p-4 group transition-colors flex gap-4 items-center w-full"
     >
-      <span className="h-10 max-w-[2.5rem] w-full text-sm bg-slate-200 transition-colors group-hover:bg-primary group-hover:text-white flex items-center justify-center font-semibold rounded-full">
+      <span className="h-10 max-w-[2.5rem] w-full text-sm bg-indigo-800 transition-colors group-hover:bg-primary group-hover:text-white flex items-center justify-center font-semibold rounded-full">
         {number}
       </span>
       <div className="flex items-center justify-between w-full">
@@ -88,7 +88,7 @@ const Quran = () => {
               value={searchKeyword}
               type="search"
               name="search"
-              placeholder="Yasin"
+              placeholder="Cari Surah. . ."
               onChange={(e) => setSearchKeyword(e.target.value)}
             />
           </div>

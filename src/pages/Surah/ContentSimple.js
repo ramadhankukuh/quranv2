@@ -11,13 +11,13 @@ const ContentSimple = ({ ayahs, currentAudioIndex, isPlaying }) => {
               style={{ lineHeight: "2.2" }}
               className={`font-arabic text-3xl  ${
                 isPlaying && currentAudioIndex === ayah.number.inSurah - 1
-                  ? "text-blue-800"
+                  ? "warna-abu-text"
                   : ""
               }`}
             >
               {ayah.arab}
             </span>
-            <span className="bg-gray-200 rounded-full h-6 w-6 mx-4 font-sans text-sm p-2 font-semibold">
+            <span className="warna-biru-bg rounded-full h-6 w-6 mx-4 font-sans text-sm p-2 font-semibold">
               {ayah.number.inSurah}
             </span>
           </Fragment>

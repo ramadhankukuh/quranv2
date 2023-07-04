@@ -21,7 +21,7 @@ const Tafsir = ({ mufassirs, tafsir }) => {
         {mufassirs.map((item) => (
           <button
             key={item.value}
-            className={`px-3 py-2 font-medium hover:text-primary transition ${
+            className={`px-3 py-2 font-medium hover:warna-biru-bg transition ${
               mufassir === item.value
                 ? "border-b-2 border-b-primary text-primary"
                 : ""
@@ -34,7 +34,7 @@ const Tafsir = ({ mufassirs, tafsir }) => {
       </div>
       <div className="w-full">
         <p
-          className="text-slate-800"
+          className="text-white"
           dangerouslySetInnerHTML={{ __html: tafsir }}
         />
       </div>
@@ -103,7 +103,7 @@ const ContentFull = ({
             {ayah.arab}
           </p>
           {isShownTranslation && (
-            <p className="text-slate-800">{ayah.translation}</p>
+            <p className="text-white">{ayah.translation}</p>
           )}
           <Tafsir
             mufassirs={mufassirs}
