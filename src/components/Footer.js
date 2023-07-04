@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import config from "../config/config";
-import IconGithub from "./icons/IconGithub";
 
 const Footer = () => {
   return (
