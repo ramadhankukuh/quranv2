@@ -1,39 +1,29 @@
 {
   "data": [
     {
-      "index": "1",
-      "latin": "Ar Rahman",
-      "arabic": "الرَّحْمَنُ",
-      "translation_id": "Yang Memiliki Mutlak sifat Pemurah",
-      "translation_en": "The All Beneficent"
+      "number": "1",
+      "id": "Ar Rahman",
+      "arab": "الرَّحْمَنُ"
     },
     {
-      "index": "2",
-      "latin": "Ar Rahiim",
-      "arabic": "الرَّحِيمُ",
-      "translation_id": "Yang Memiliki Mutlak sifat Penyayang",
-      "translation_en": "The Most Merciful"
+      "number": "1",
+      "id": "Ar Rahman",
+      "arab": "الرَّحْمَنُ"
     },
     {
-      "index": "3",
-      "latin": "Al Malik",
-      "arabic": "الْمَلِكُ",
-      "translation_id": "Yang Memiliki Mutlak sifat Merajai/Memerintah",
-      "translation_en": "The King, The Sovereign"
+      "number": "1",
+      "id": "Ar Rahman",
+      "arab": "الرَّحْمَنُ"
     },
     {
-      "index": "4",
-      "latin": "Al Quddus",
-      "arabic": "الْقُدُّوسُ",
-      "translation_id": "Yang Memiliki Mutlak sifat Suci",
-      "translation_en": "The Most Holy"
+      "number": "1",
+      "id": "Ar Rahman",
+      "arab": "الرَّحْمَنُ"
     },
     {
-      "index": "5",
-      "latin": "As Salaam",
-      "arabic": "السَّلاَمُ",
-      "translation_id": "Yang Memiliki Mutlak sifat Memberi Kesejahteraan",
-      "translation_en": "Peace and Blessing"
+      "number": "1",
+      "id": "Ar Rahman",
+      "arab": "الرَّحْمَنُ"
     }
       ]
 }
